@@ -1,0 +1,29 @@
+﻿.Button
+{
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid rgb(240,240,240);
+	margin: 5px;
+	padding: 0px 15px;
+}
+
+.general:hover
+{
+	background-color: rgb(145,188,206);
+}
+
+.wx
+{
+	background: #26B99A;
+	border: 1px solid #169F85;
+	color: #fff;
+}
+
+	.wx:hover
+	{
+		background: #0CB08D;
+		cursor: pointer;
+		border: 1px solid #ddd;
+	}

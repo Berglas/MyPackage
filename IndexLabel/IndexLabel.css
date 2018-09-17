@@ -1,0 +1,47 @@
+﻿.IndexLabel-Box
+{
+	height: 30px;
+	padding-left: 10px;
+}
+
+.IndexLabel-text
+{
+	font-size: 20px;
+	float: left;
+	cursor: pointer;
+}
+
+	.IndexLabel-text:hover
+	{
+		color: rgb(180,180,180);
+	}
+
+.IndexLabel-arrow
+{
+	position: relative;
+	float: left;
+	margin: 7px;
+}
+
+	.IndexLabel-arrow::after
+	{
+		position: relative;
+		width: 16px;
+		height: 2px;
+		content: "";
+		display: block;
+		background: rgb(242,242,242);
+		transform: rotate(30deg);
+	}
+
+	.IndexLabel-arrow::before
+	{
+		position: relative;
+		width: 16px;
+		height: 2px;
+		top: 10px;
+		content: "";
+		display: block;
+		background: rgb(242,242,242);
+		transform: rotate(-30deg);
+	}
